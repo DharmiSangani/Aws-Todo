@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "todoapp",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 40,
+      "apiKeyExpirationDate": "2025-04-08T05:40:50.718Z",
+      "keyDescription": "todoappapikey"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authtodoapp2e72b492"
+      }
+    ]
+  }
+}
