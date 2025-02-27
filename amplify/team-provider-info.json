@@ -17,6 +17,12 @@
       },
       "api": {
         "todoapp": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2450w501x77xy",
+          "type": "cicd"
+        }
       }
     }
   }
